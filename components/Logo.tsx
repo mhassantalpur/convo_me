@@ -7,7 +7,7 @@ import LogoImage from '@logos/convo_logo-removebg-preview.png'
 const Logo = () => {
   return (
     <Link href={'/'} className="overflow-hidden" prefetch={false}>
-        <div className="flex items-center w-72 h-15">
+        <div className="flex items-center w-72 h-12">
             <AspectRatio
                 ratio={16 / 9}
                 className="flex items-center justify-content"
