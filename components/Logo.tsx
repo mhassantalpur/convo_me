@@ -1,18 +1,18 @@
 import Link from "next/link"
-import { Button } from "./ui/button"
 import { AspectRatio } from "./ui/aspect-ratio"
 import Image from "next/image"
-import LogoImage from '@logos/convo_logo-removebg-preview.png'
+import LogoImage from '@logos/convo_me_logo-removebg-preview.png'
 
 const Logo = () => {
   return (
     <Link href={'/'} className="overflow-hidden" prefetch={false}>
-        <div className="flex items-center w-72 h-12">
+        <div className="flex items-center w-72 h-14">
             <AspectRatio
                 ratio={16 / 9}
                 className="flex items-center justify-content"
             >
-            <Image 
+            <Image
+                height='60'
                 priority
                 src={LogoImage}
                 alt="logo"
