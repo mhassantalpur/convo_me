@@ -5,7 +5,13 @@ const Header = () => {
     <header>
         <nav>
             <Logo />
+            <div>
+                {/* language select */}
+                {/* session */}
+
+            </div>
         </nav>
+        {/* subscribe */}
     </header>
   )
 }
